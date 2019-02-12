@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Hiwarcom</h1>
+    <p class="lead">Hiwarcom is a free web application which helps the end users to manage their Hiwarcoms and income in one place.</p>
+    <p><a href="#" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Add User</h2>
+        <p>The "Add User" feature of the application allows for new user registration. </p>
+        <p><div class="btn btn-default">@Html.ActionLink("Learn more", "Index", "Users")&raquo;</div></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Demo</h2>
+        <p>
+            The "Demo" feature of the application allows the registered users to add their Hiwarcoms.
+        </p>
+        <p><div class="btn btn-default">@Html.ActionLink("Learn more", "Index", "Hiwarcoms")&raquo;</div></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Demo</h2>
+        <p>The "Demo" feature of the application allows the registered users to add their Demo. </p>
+        <p><div class="btn btn-default">@Html.ActionLink("Learn more", "Index", "Incomes")&raquo;</div></p>
+    </div>
+</div>
